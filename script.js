@@ -15,7 +15,7 @@ function writePassword() {
       window.alert("Has to be between 8 and 128 characters.")
     }
   console.log(passLength)
-     
+  
   let chars = "";
   
   if (confirm("would you like lowercase letters?") == true) {
@@ -46,6 +46,7 @@ function writePassword() {
     
    console.log(chars.length)
 
+   var password = ""
 
     for (var i = 0; i < passLength; i++) {
       var randomNumber = Math.floor(Math.random() * chars.length);
